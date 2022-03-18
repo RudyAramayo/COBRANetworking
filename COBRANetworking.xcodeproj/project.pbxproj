@@ -6,11 +6,42 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		D4A30A0D279B2DF2001C06AD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D4A30A0E279B3521001C06AD /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D4A30A0F279B36D7001C06AD /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D4A30A10279B38CA001C06AD /* Verifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifiable.swift; sourceTree = "<group>"; };
+		D4A30A13279B4458001C06AD /* AppleAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAPIClient.swift; sourceTree = "<group>"; };
+		D4A30A14279B44E6001C06AD /* iPhonePageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhonePageRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		D4A30A06279B2DA1001C06AD = {
 			isa = PBXGroup;
 			children = (
+				D4A30A12279B4440001C06AD /* AppleAPI */,
+				D4A30A11279B442F001C06AD /* COBRACore */,
 			);
+			sourceTree = "<group>";
+		};
+		D4A30A11279B442F001C06AD /* COBRACore */ = {
+			isa = PBXGroup;
+			children = (
+				D4A30A10279B38CA001C06AD /* Verifiable.swift */,
+				D4A30A0D279B2DF2001C06AD /* Network.swift */,
+				D4A30A0E279B3521001C06AD /* APIError.swift */,
+				D4A30A0F279B36D7001C06AD /* Request.swift */,
+			);
+			path = COBRACore;
+			sourceTree = "<group>";
+		};
+		D4A30A12279B4440001C06AD /* AppleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D4A30A13279B4458001C06AD /* AppleAPIClient.swift */,
+				D4A30A14279B44E6001C06AD /* iPhonePageRequest.swift */,
+			);
+			path = AppleAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
